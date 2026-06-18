@@ -44,7 +44,7 @@ Search form:
 - Submit button
 
 ### 3. Take a screenshot of the Elements panel
-Screenshot attached below.
-![Elements Panel Screenshot 1](images/screenshot-1.png)
 
-![Elements Panel Screenshot 2](images/screenshot-2.png)
+![Elements Panel Screenshot 1](screenshot-1.png)
+
+![Elements Panel Screenshot 2](screenshot-2.png)
