@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Napoleon Chege</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html"><strong>Contact</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name</label><br>
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    required
+                >
+
+                <br><br>
+
+                <label for="phone">Phone (optional)</label><br>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+254 700 000 000"
+                >
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Message Details</legend>
+
+                <label for="subject">Subject</label><br>
+                <select id="subject" name="subject">
+                    <option value="">-- Select --</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Message</label><br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message (min 50 characters)"
+                    minlength="50"
+                    required
+                ></textarea>
+            </fieldset>
+
+            <br>
+
+            <label>
+                <input type="checkbox" name="newsletter">
+                Subscribe to newsletter
+            </label>
+
+            <br><br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <section>
+            <h2>Social Media</h2>
+
+            <ul>
+                <li><a href="https://github.com/napoleonchege">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/napoleon-chege/">LinkedIn</a></li>
+            </ul>
+
+            <p>Location: Nairobi, Kenya</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Napoleon Chege</p>
+    </footer>
+
+</body>
+</html>
