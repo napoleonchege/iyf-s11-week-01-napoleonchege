@@ -1,7 +1,7 @@
 # Week 1: Web Foundations
 
 ## Live Site
-https://github.com/napoleonchege/iyf-s11-week-01-napoleonchege
+https://napoleonchege.github.io/iyf-s11-week-01-napoleonchege/
 
 ## Technical Article
 Semantic HTML & Accessibility:
